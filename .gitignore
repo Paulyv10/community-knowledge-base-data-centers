@@ -1,0 +1,27 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# renv
+renv/library/
+renv/staging/
+
+# Data — keep raw and processed dirs but not the files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Sensitive
+.Renviron
+*.env
+
+# Reports output
+reports/*.html
+reports/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
